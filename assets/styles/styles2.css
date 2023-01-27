@@ -1,0 +1,31 @@
+h1 {
+    color: black;
+}
+
+h2 {
+    border: 0.5px solid black;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding-top: 15%;
+    display: flex;
+}
+
+nav {
+    position: absolute;
+}
+
+main nav {
+    display: block;
+    margin: 75px;
+}
+
+.img1 {
+    width: 800px;
+    height: 200px;
+}
+

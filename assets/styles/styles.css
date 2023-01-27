@@ -1,0 +1,39 @@
+h1 {
+    color: black;
+    font-size: 20px;
+
+}
+
+.img1 {
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    border-radius: 1%;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 400px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    padding-left: 200px;
+    padding-top: 75px;
+    position: absolute;
+}
+
+main ul {
+    display: inline-block;
+    padding-left: 150px;
+}
+
+main ul {
+    text-align: left;
+    width: 300px;
+}
