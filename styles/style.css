@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: xx-large;
+}
+
+h1 {
+    font-size: 3cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://w7.pngwing.com/pngs/514/837/png-transparent-anaheim-ducks-national-hockey-league-2007-stanley-cup-finals-los-angeles-kings-mighty-ducks-white-carnivoran-paw.png");
+    background-repeat: repeat;
+}
+
+title {
+    padding: 30px;
+}
+
+.img1 {
+    display: block;
+    position: relative;
+    height: 300px;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 1500px;
+    top: 350px;
+    border: 2px solid gray;
+    background-color: gray;
+    border-radius: 10%;
+}
+
+h2 {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+a {
+    display: block;
+    margin: 20px;
+    width: 100px;
+}
+
+article {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 0.5cm;
+    padding-top: 50px;
+    width: 1000px;
+}
+
+.mainimg {
+    display: block;
+    width: 450px;
+    position: relative;
+    height: 265px;
+    border: 5px solid black;
+    border-radius: 5%;
+    position: absolute;
+    left: 1200px;
+    top: 500px;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/images/hockey2_1.jpg);
+    background-position: 40%;
+}
+
+nav {
+    display: block;
+    width: 200px;
+    font-size: 0.5cm;
+    padding-top: 50px;
+}
+
+nav, article, .mainimg {
+    display: inline-block;
+}
+
+.reglas {
+    margin: 1rem;
+    width: 1200px;
+    position: absolute;
+    left: 50px;
+}
+
+.coordinatorcontact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5cm;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.coachpower {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+.minorfields {
+    list-style-type: lower-latin;
+}
+
+table {
+    background-color: beige;
+    height: 20vh;
+    width: 25rem;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td {
+    border: 5p solid;
+}
+
+.gametable {
+    position: absolute;
+    left: 250px;
+    top: 575px;
+}
+
+.rulesarticle {
+    position: absolute;
+    top: 500px;
+}
+
+.schedule {
+    position: absolute;
+    top: 450px;
+}
+
+.footerdiv {
+    display: inline;
+    position: absolute;
+    top: 1000px;
+}
