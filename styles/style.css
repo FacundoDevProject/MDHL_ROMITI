@@ -146,5 +146,34 @@ table, th, td {
 .footerdiv {
     display: inline;
     position: absolute;
-    top: 1000px;
+    top: 1200px;
 }
+
+.maps {
+    display: inline-block; width: 33%;
+    margin-top: 70%;
+}
+
+.permission {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.signature {
+    width: 800px;
+}
+
+.pinfo {
+    width: 200px;
+}
+
+.signature, .pinfo, form {
+    margin: auto;
+}
+
+form{
+    width: 700px;
+}
+
+
+/** MEDIA QUERIES **/
